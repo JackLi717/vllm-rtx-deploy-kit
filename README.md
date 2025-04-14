@@ -28,7 +28,7 @@ This project provides a local inference deployment solution for running [vLLM](h
 ### 1. Clone and configure
 
 ```bash
-git clone https://github.com/yourname/vllm-rtx-deploy-kit.git
+git clone https://github.com/JackLi717/vllm-rtx-deploy-kit.git
 cd vllm-rtx-deploy-kit
 cp .env.example .env
 ```
