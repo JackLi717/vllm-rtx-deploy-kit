@@ -1,0 +1,19 @@
+# Core dependencies
+setuptools_scm
+packaging
+cmake
+ninja
+aiohttp>=3.8.1,<3.9
+openai>=1.0.0
+protobuf>=3.19,<5.0
+importlib_metadata>=6.0,<8.0
+
+# FlashInfer requirements
+# These are assumed to be minimal; full flashinfer/requirements.txt will be used during build if exists.
+
+# Nightly PyTorch must be installed manually via index-url (not included here)
+# torch
+# torchvision
+# torchaudio
+
+# vLLM build-time dependencies from vllm/requirements/build.txt

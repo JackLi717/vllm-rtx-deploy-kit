@@ -1,4 +1,4 @@
-# 🧠 vLLM Inference Deployment Kit for DeepSeek 14B + RTX 5090/4090 GPUs
+# 🧠 vLLM Inference Deployment Kit for DeepSeek 14B + RTX 5090 GPUs + WSL2
 
 This project provides a local inference deployment solution for running [vLLM](https://github.com/vllm-project/vllm) with the DeepSeek 14B Chat AWQ model (4-bit) on NVIDIA RTX 5090 GPUs using PyTorch Nightly + CUDA 12.8.
 
@@ -20,8 +20,7 @@ This project provides a local inference deployment solution for running [vLLM](h
 - 🧠 Model: [DeepSeek LLM 14B Chat AWQ]
 - 💻 GPU: NVIDIA RTX 5090
 - 🐍 Python 3.10 (via Miniconda)
-- 🐧 Linux or WSL2 recommended
-
+- 🐧 Windows 11 WSL2
 ---
 
 ## ⚙️ Getting Started
@@ -103,7 +102,7 @@ make clean-all  # Removes logs/, vllm/, flashinfer/
 
 ## 🔍 Keywords (GitHub Topics)
 
-`vllm`, `nvidia`, `rtx5090`, `deepseek`, `gpu-inference`, `flashinfer`, `cuda12`, `pytorch-nightly`
+`vllm`, `nvidia`, `rtx5090`, `deepseek`, `gpu-inference`, `flashinfer`, `cuda12`, `pytorch-nightly`,`rtx5080`,`rtx5070`,`WSL2`
 
 ---
 
